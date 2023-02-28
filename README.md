@@ -5,3 +5,10 @@
 # Second Activity
 ![ac1](https://user-images.githubusercontent.com/105364446/221812299-cce812d6-ed11-4ac1-ac2e-80c09626c1bf.png)
 
+# Internationalisationà
+Langue Arabe :
+![Ar1](https://user-images.githubusercontent.com/105364446/222005915-b478cce6-d9f1-4749-9108-6f24eb6a36f4.jpg)
+![Ar2](https://user-images.githubusercontent.com/105364446/222005875-f68a4271-6719-431f-8a1f-c781ead03437.jpg)
+Langue Française :
+![Fr1](https://user-images.githubusercontent.com/105364446/222006077-1957eaa6-60d1-4ea8-9de4-06ede04a9dce.jpg)
+![Fr2](https://user-images.githubusercontent.com/105364446/222006110-f2e50f72-d1df-47ae-86a7-a43dfcadb9ee.jpg)
