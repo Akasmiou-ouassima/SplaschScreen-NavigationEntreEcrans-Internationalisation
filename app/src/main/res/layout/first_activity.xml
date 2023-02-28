@@ -100,7 +100,7 @@
         android:layout_marginTop="44dp"
         android:background="@drawable/buttonshape"
         android:onClick="envoyer"
-        android:text="Sign in"
+        android:text="@string/signin"
         android:typeface="monospace"
         android:textSize="20dp"
         android:textStyle="bold"

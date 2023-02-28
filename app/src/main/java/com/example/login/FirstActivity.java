@@ -25,7 +25,7 @@ public class FirstActivity extends AppCompatActivity{
             String usernameString = username.getText().toString().trim();
             String passwordString = password.getText().toString().trim();
             if (usernameString.isEmpty() || passwordString.isEmpty()) {
-                Toast.makeText(this, getResources().getString(R.string.fill_in), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, getResources().getString(R.string.fillin), Toast.LENGTH_LONG).show();
             } else {
                 Bundle bundle = new Bundle();
                 bundle.putString("username", username.getText().toString().trim());
@@ -36,6 +36,12 @@ public class FirstActivity extends AppCompatActivity{
                 finish();
             }
         }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Toast.makeText(getBaseContext(), "onStart",
+                Toast.LENGTH_LONG).show();
+    }
 
     @Override
     protected void onRestart() {
@@ -44,12 +50,7 @@ public class FirstActivity extends AppCompatActivity{
                 Toast.LENGTH_LONG).show();
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();Toast.makeText(getBaseContext(),
-                "onStart",
-                Toast.LENGTH_LONG).show();
-    }
+
     @Override
     protected void onStop() {
         super.onStop();
